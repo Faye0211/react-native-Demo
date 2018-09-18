@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
 	},
 	//每个演员头像
 	actorImage:{
-		width:100,
+		width:70,
 		height:100
 	},
 	//剧情简介

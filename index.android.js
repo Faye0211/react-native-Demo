@@ -32,7 +32,14 @@ export default class Demo extends Component {
           selectedTab:'首页',
       }
     }
-
+    goMovie(){
+        // Actions.movielist({'movieType':'in_theaters'});
+        // 同时还要实现路由跳转
+        //修改状态切换选中的样式
+        this.setState({
+          selectedTab:'电影'
+        });
+      }
 
 
   render() {

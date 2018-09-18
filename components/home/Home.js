@@ -64,7 +64,7 @@ import { Router, Scene,Actions } from 'react-native-router-flux';
 			</View>
         
       <View style={styles.show}>
-      <Image style={styles.imageStyles} source={{uri:'https://img3.doubanio.com/view/photo/m/public/p2518238336.webp'}}  />
+      <Image style={styles.imageStyles} source={{uri:'http://img5.duitang.com/uploads/blog/201405/10/20140510220310_yFHww.jpeg'}}  />
       </View>
 		</View>
 	}
@@ -130,7 +130,7 @@ import { Router, Scene,Actions } from 'react-native-router-flux';
     flex: 1,
     width:'100%',
     height:150,
-    marginTop:'-80%'
+    marginTop:'-100%'
   }, 
   imageStyles: {
     flex: 1,
